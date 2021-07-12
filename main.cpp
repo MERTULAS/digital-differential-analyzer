@@ -32,7 +32,7 @@ void DDARectangle(float x, float y, float w, float h, double theta, short color)
 	float points1[] = {w / 2, - h / 2};
 	rotate2D(points1, theta);
 	DigitalDifferentialAnalyzer(points0[0] + x, 
-	 							points0[1] + y, 
+								points0[1] + y, 
 								points1[0] + x, 
 								points1[1] + y,
 								color);
